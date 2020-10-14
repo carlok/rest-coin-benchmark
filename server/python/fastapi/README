@@ -1,0 +1,2 @@
+uvicorn main:app --log-level critical --port 3000
+uvicorn main:app --log-level critical --reload --port 3000

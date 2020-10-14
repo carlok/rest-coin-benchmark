@@ -1,0 +1,4 @@
+go get -u github.com/gin-gonic/gin
+GIN_MODE=release go run example.go
+GIN_MODE=release go build example.go
+./example

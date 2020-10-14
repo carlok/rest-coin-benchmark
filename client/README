@@ -1,0 +1,11 @@
+go:
+wrk -t12 -c400 -d120s -s post.lua http://0.0.0.0:8080/coin
+
+php raw:
+wrk -t12 -c400 -d120s -s post.lua http://0.0.0.0
+
+node, python, php mark:
+wrk -t12 -c400 -d120s -s post.lua http://0.0.0.0:3000/coin
+
+ruby (rake):
+wrk -t12 -c400 -d120s -s post.lua http://0.0.0.0:8080

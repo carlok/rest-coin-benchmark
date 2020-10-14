@@ -1,0 +1,8 @@
+{
+  "name": "fastify-ck-test",
+  "description": "fastify-ck-test",
+  "version": "0.1",
+  "dependencies": {
+    "fastify": "^3.4.1"
+  }
+}

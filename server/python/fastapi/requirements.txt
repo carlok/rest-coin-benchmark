@@ -1,0 +1,10 @@
+autopep8==1.5.4
+click==7.1.2
+fastapi==0.61.1
+h11==0.10.0
+pycodestyle==2.6.0
+pydantic==1.6.1
+starlette==0.13.6
+toml==0.10.1
+typing-extensions==3.7.4.3
+uvicorn==0.12.0
