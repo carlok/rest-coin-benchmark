@@ -18,9 +18,9 @@ namespace coinapi
                     context.Response.ContentType = "application/json";
                     context.Response.StatusCode = StatusCodes.Status200OK;
                     var request = await JsonSerializer.DeserializeAsync<CoinRequest>(context.Request.Body, cancellationToken: context.RequestAborted);
-                    var check = request.win ? 1 : 0;
-                    var rnd = new Random().Next(0, 2);
-                    var result = JsonSerializer.Serialize(new CoinRequest { win = check == rnd });
+                    var result = JsonSerializer.Serialize(new CoinRequest { 
+                        win = request.win == new Random().NextDouble() >= 0.5
+                    });
                     await context.Response.WriteAsync(result);
                 });
             });
