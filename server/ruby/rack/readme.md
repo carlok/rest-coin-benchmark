@@ -10,5 +10,6 @@
 	
 	gem install thin
 
- 2. Lauch 
-	ruby rack.rb
+ 2. Lauch
+ 
+ 	ruby rack.rb
