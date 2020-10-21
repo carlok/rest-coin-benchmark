@@ -16,5 +16,5 @@ or
 
  3. Test
 
-    curl -d '{"bet":"false"}' -H "Content-Type: application/json" -X POST http://0.0.0.0:8080/coin    
-    wrk -t12 -c400 -d120s -s post.lua http://0.0.0.0:8080/coin
+    curl -d '{"bet":"false"}' -H "Content-Type: application/json" -X POST http://0.0.0.0:3000/coin    
+    wrk -t12 -c400 -d120s -s post.lua http://0.0.0.0:3000/coin
