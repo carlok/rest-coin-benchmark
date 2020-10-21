@@ -1,0 +1,8 @@
+{
+  "name": "express-test",
+  "description": "express-test-bench",
+  "version": "0.1",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
