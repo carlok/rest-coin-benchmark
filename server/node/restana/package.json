@@ -1,0 +1,8 @@
+{
+  "name": "fastify-ck-test",
+  "description": "fastify-ck-test",
+  "version": "0.1",
+  "dependencies": {
+    "restana": "^4.8.0"
+  }
+}
